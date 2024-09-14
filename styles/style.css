@@ -80,8 +80,8 @@ input {
 }
 
 .controls {
-    height: 50px;
-    width: 80px;
+    height: 2em;
+    width: 5em;
 
     display: flex;
 }
