@@ -51,16 +51,16 @@ body {
 }
 
 #slider__billy {
-    background-image: url(/cssMemeSlider/cssMemeSlider/img/billy.jpg);
+    background-image: url(../img/billy.jpg);
 }
 #slider__chad {
-    background-image: url(/cssMemeSlider/cssMemeSlider/img/chad.jpg);
+    background-image: url(../img/chad.jpg);
 }
 #slider__marge {
-    background-image: url(/cssMemeSlider/cssMemeSlider/img/marge.jpg);
+    background-image: url(../img/marge.jpg);
 }
 #slider__sndk {
-    background-image: url(/cssMemeSlider/cssMemeSlider/img/sndk.jpg);
+    background-image: url(../img/sndk.jpg);
 }
 
 .carousel > div {
