@@ -3,8 +3,40 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Document</title>
-        <link rel="stylesheet" href="style.css" />
+        <link rel="stylesheet" href="styles/normalize.css" />
+        <link rel="stylesheet" href="styles/style.css" />
+        <title>memeSlider</title>
     </head>
-    <body></body>
+    <body>
+        <input type="radio" name="buttons" id="r1" checked />
+        <input type="radio" name="buttons" id="r2" />
+        <input type="radio" name="buttons" id="r3" />
+        <input type="radio" name="buttons" id="r4" />
+        <div class="content__wrapper">
+            <div class="slider__wrapper">
+                <div class="carousel">
+                    <div class="slider__billy slider" id="slider__billy"></div>
+                    <div class="slider__chad slider" id="slider__chad"></div>
+                    <div class="slidermarge slider" id="slider__marge"></div>
+                    <div class="slidersndk slider" id="slider__sndk"></div>
+                </div>
+                <div class="bottom__wrapper">
+                    <div class="text__wrapper">
+                        <div class="slider__text">
+                            <div id="billyText">300 bucks</div>
+                            <div id="chadText">look at this graph</div>
+                            <div id="margeText">у меня есть фулл, но я его не дам</div>
+                            <div id="sndkText">детей</div>
+                        </div>
+                    </div>
+                    <div class="controls">
+                        <label for="r1"></label>
+                        <label for="r2"></label>
+                        <label for="r3"></label>
+                        <label for="r4"></label>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
 </html>
